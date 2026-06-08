@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <title>date</title>
+</head>
+    <script>
+        let MyDate = function(day,month,year){
+            this.day = day ;
+            this.month = month ;
+            this.year = year ;
+            
+            this.getDay = function(){
+                return this.day;
+            }
+            this.getMonth = function(){
+                return this.month;
+            }
+            this.getYear = function(){
+                return this.year;
+            }
+            this.setDay = function(){
+                this.day = day ;
+            }
+            this.setMonth = function(){
+                this.month = month;
+            }
+            this.setYears = function(){
+                this.year = year; 
+            }
+        };
+        let date = new MyDate(2,12,2000);
+        let day = date.getDay();
+        let month = date.getMonth();
+        let year = date.getYear();
+
+        alert(day +"/"+month+"/"+year);
+    </script>
+</body>
+</html>
