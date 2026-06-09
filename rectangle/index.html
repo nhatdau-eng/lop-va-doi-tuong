@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Rectangle OOP</title>
+</head>
+<body>
+
+<canvas id="myCanvas" width="800" height="500" style="border:1px solid black;">
+</canvas>
+
+<script>
+    class Rectangle {
+        constructor(length, width) {
+            this.length = length;
+            this.width = width;
+        }
+        getArea() {
+            return this.length * this.width;
+        }
+        getPerimeter() {
+            return (this.length + this.width) * 2;
+        }
+        setSize(length, width) {
+            this.length = length;
+            this.width = width;
+        }
+        draw(ctx, x, y) {
+            ctx.clearRect(0, 0, 800, 500); 
+            ctx.strokeRect(x, y, this.length, this.width);
+        }
+    }
+    let rectangle = new Rectangle(200, 100);
+    let canvas = document.getElementById("myCanvas");
+    let ctx = canvas.getContext("2d");
+    rectangle.draw(ctx, 50, 50);
+
+    rectangle.setSize(300, 150);
+
+    rectangle.draw(ctx, 50, 50);
+
+    document.write("<h3>Chiều dài: " + rectangle.length + "</h3>");
+    document.write("<h3>Chiều rộng: " + rectangle.width + "</h3>");
+    document.write("<h3>Diện tích: " + rectangle.getArea() + "</h3>");
+    document.write("<h3>Chu vi: " + rectangle.getPerimeter() + "</h3>");
+
+</script>
+
+</body>
+</html>
