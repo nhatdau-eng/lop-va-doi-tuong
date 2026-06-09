@@ -1,0 +1,1 @@
+Là một lập trình viên chuyên nghiệp bạn hãy cho tôi biết có hai distance *5000 or *10000 thì tôi nên gộp nó lại thế nào và nếu không gộp được hãy cho tôi các bước triển khai mà không code luôn cho tôi và cho các ví dụ 
