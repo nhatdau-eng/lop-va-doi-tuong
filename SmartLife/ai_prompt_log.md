@@ -1,0 +1,1 @@
+Bạn là một lập trình viên khó tính , bạn hãy cho tôi biết tôi nên tạo let lamp bằng new xong cho vào gọn 1 dòng hay không hay gom điểm chung từng thuộc tính lại 

@@ -1,0 +1,3 @@
+SmartDevicebattery: 100deviceId: "CN9F83YBR"deviceName: "Đèn ngủ"isOn: falsetype: "Light"[[Prototype]]: Object
+ SmartDevicebattery: 100deviceId: "B7L0IMJRR"deviceName: "Điều hòa"isOn: falsetype: "AirConditioner"[[Prototype]]: Object
+ SmartDevicebattery: 100deviceId: "ZL9YVG3A6"deviceName: "Quạt"isOn: falsetype: "Fan"[[Prototype]]: Object
