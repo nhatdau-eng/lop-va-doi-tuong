@@ -1,0 +1,3 @@
+CharacterclassType: "Hacker"hp: 100inventory: []isAlive: truelevel: 1name: "Neo"[[Prototype]]: Object
+ CharacterclassType: "Gunner"hp: 100inventory: []isAlive: truelevel: 1name: "Trinity"[[Prototype]]: Object
+ CharacterclassType: "Warrior"hp: 100inventory: []isAlive: truelevel: 1name: "Unknown"[[Prototype]]: Object
