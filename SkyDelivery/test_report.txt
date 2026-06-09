@@ -1,0 +1,6 @@
+Đã điều phối Drone D01
+main.js:64 Array(23)
+main.js:46 Đã điều phối Drone D04
+main.js:66 Array(23)
+main.js:46 Đã điều phối Drone D05
+main.js:68 Array(23)

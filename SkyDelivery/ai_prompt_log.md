@@ -1,0 +1,1 @@
+Bạn là lập trình viên chuyên nghiệp hãy cho tôi biết cách điều phối hàm cho gọn và sau đọc và sửa lại dễ hơn
