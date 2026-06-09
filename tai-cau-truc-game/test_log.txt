@@ -1,0 +1,14 @@
+Trường hợp 1 :
+Valhein bị đánh!Máu còn lại:750
+Arthur HP: 1000
+Valhein HP: 750
+TRường hợp 2 :
+Arthur bị đánh!Máu còn lại:920
+Arthur HP: 920
+Valhein HP: 800
+Trường hợp 3 :
+Valhein bị đánh!Máu còn lại:750
+Valhein bị đánh!Máu còn lại:700
+Valhein bị đánh!Máu còn lại:650
+
+Valhein HP: 650
